@@ -57,7 +57,7 @@
 .nav-mob-open{
     display: none;
 }
-@media(max-width:768px){
+@media((max-width:768px) and (min-width:500px)){
     .navbar{
         margin: 20px 50px;
     }
@@ -100,4 +100,50 @@
         gap: 20px;
     }
 
+}
+
+@media(max-width:380px){
+    #vol{
+        margin-left: 20px;
+        height: 30px;
+        width: auto;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .navbar img{
+        height: 40px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1f0016;
+        width: 350px;
+        height: 100%;
+        z-index: 3;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
