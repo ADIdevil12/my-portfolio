@@ -8,10 +8,12 @@
 }
 .contact-title{
     position: relative;
+
+}
+.contact-title h1{
     padding: 0px 30px;
     font-weight: 600;
-    font-size: 70px;
-
+    font-size: 80px;
 }
 .contact-detail img{
     height: 40px;

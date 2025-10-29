@@ -1,6 +1,6 @@
 .projects {
-    gap: 20px;
-    padding: 10px 10%;
+    
+  padding: 80px 10%;
   background: black;
   color: #f8fafc;
   text-align: center;
@@ -9,10 +9,10 @@
 }
 
 .section-title {
-  padding: 0px 30px;
-    font-weight: 600;
-    font-size: 80px;
-    margin-bottom: 80px;
+  position: relative;
+  font-size: 80px;
+  margin-bottom: 80px;
+  margin-top: -80px;
 }
 
 .project-slider {
