@@ -221,7 +221,7 @@
     text-align: center;
   }
 }
-@media (max-width: 368px) {
+@media (max-width: 450px) {
   .about-achievements {
     flex-direction: row;
     gap: 20px;
@@ -229,7 +229,7 @@
   }
 
   .about-achievements hr {
-    width: 2%;
+    width: 1%;
     height: 120px;
   }
 
@@ -238,8 +238,9 @@
   }
 
   .about-achievement1 h1 {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 15px;
+    white-space: no-wrap;
+    margin-left: 40px;
   }
 
   .about-achievement p {

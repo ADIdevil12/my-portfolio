@@ -14,7 +14,7 @@ const Navbar = () => {
   const openMenu = () => {
     
     const w = window.innerWidth;
-    if (w <= 380) {
+    if (w <= 450) {
       menuRef.current.style.right = "0"; 
       
       menuRef.current.style.right = "0";
@@ -25,7 +25,7 @@ const Navbar = () => {
   const closeMenu = () => {
     
     const w = window.innerWidth;
-    if (w <= 380) {
+    if (w <= 450) {
       menuRef.current.style.right = "-300px";
     } else if (w <= 768) {
       menuRef.current.style.right = "-350px";
