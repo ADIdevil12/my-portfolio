@@ -1,11 +1,9 @@
 .projects {
-    
   padding: 80px 10%;
   background: black;
   color: #f8fafc;
   text-align: center;
   position: relative;
- 
 }
 
 .section-title {
@@ -107,18 +105,18 @@
   right: 10%;
 }
 
+/* ✅ Tablet view */
 @media (max-width: 768px) {
   .projects {
     padding: 50px 5%;
     gap: 10px;
   }
-  
+
   .section-title {
     font-size: 50px;
     margin-bottom: 40px;
     margin-right: 340px;
     padding: 0;
-    
   }
 
   .project-slider {
@@ -169,5 +167,67 @@
 
   .arrow-btn.right {
     right: 4%;
+  }
+}
+
+/* ✅ Mobile view (≤368px) */
+@media (max-width: 368px) {
+  .projects {
+    padding: 40px 5%;
+
+  }
+
+  .section-title {
+    margin-top: 20px;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-left: 50px;
+    white-space: nowrap; /* Keep title single line */
+    
+  }
+
+  .project-slider {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .project-img {
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .project-content {
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .project-content h3 {
+    font-size: 1rem;
+  }
+
+  .project-content p {
+    font-size: 0.85rem;
+  }
+
+  .project-btn {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .arrow-btn {
+    font-size: 1.1rem;
+    padding: 6px 9px;
+  }
+
+  .arrow-btn.left {
+    left: 6%;
+  }
+
+  .arrow-btn.right {
+    right: 6%;
   }
 }

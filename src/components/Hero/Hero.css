@@ -93,7 +93,7 @@
         font-weight: 500;
         margin-bottom: 50px;
     }
-    hero-connect{
+    .hero-connect{
         padding: 20px 30px;
         border-radius: 40px;
 
@@ -102,5 +102,38 @@
     .hero-resume{
         padding: 20px 50px;
         border-radius: 40px;
+    }
+
+}
+@media(max-width:380px){
+    .hero h1{
+        margin-top: 20px;
+        width: 80%;
+        font-size: 30px;
+    }
+    .hero img{
+        margin-top: 20px;
+        width: 40%;
+        height: 150px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 5px 0px;
+    }
+    .hero-action{
+        gap: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    
+    .hero-resume{
+        padding:20px;
+        border-radius: 40px;
+        font-size: 15px;
+        width: 100px;
+        margin-left: 10px;
     }
 }

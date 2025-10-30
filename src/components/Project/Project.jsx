@@ -18,7 +18,7 @@ const Project = () => {
       image: project1,
     },
     {
-      title: "Harvestify",
+      title: "Dream Car",
       description:
         "My Dream Car is a sleek React-based landing page showcasing a collection of stunning car models built using HTML, CSS, and JavaScript.",
       link: "#",
@@ -39,7 +39,7 @@ const Project = () => {
 
     <div id="project">
     <section className="projects" id="projects">
-      <h2 className="section-title">My Projects</h2>
+      <h1 className="section-title">My Projects</h1>
 
       <div className="project-slider">
         {/* Left arrow */}
