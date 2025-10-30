@@ -171,7 +171,7 @@
 }
 
 /* ✅ Mobile view (≤368px) */
-@media (max-width: 368px) {
+@media (max-width: 438px) {
   .projects {
     padding: 40px 5%;
 
