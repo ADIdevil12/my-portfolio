@@ -14,7 +14,7 @@ const Project = () => {
       title: "E-Commerce Website",
       description:
         "A full-stack web app built using HTML, CSS, JavaScript, and MySQL. Features product browsing, cart, and payment simulation.",
-      link: "#",
+      link: "https://adidevil12.github.io/E-commerce-website/",
       image: project1,
     },
     {
